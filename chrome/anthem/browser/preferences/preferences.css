@@ -102,7 +102,7 @@
 radio[pane][selected="true"] {
     background: url("chrome://browser/skin/radio-selected-bg.png") repeat-x center center;
     -moz-border-left-colors: #6a6a6a #868686;
-    -moz-border-right-colors: #6a6a6a #868686;    
+    -moz-border-right-colors: #6a6a6a #868686;
 }
 
 /* ----- GENERAL BUTTON ----- */
@@ -111,7 +111,7 @@ radio[pane=paneGeneral],
 radio[pane=paneMain] {
 	-moz-image-region: rect(0px, 32px, 32px, 0px);
 	color: #fff;
-} 
+}
 radio[pane=paneGeneral]:active,
 radio[pane=paneMain]:active {
 	-moz-image-region: rect(32px, 32px, 64px, 0px);

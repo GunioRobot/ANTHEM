@@ -84,7 +84,7 @@ menubar {
 
 .toolbar-holder {
  min-width: 1px;
-}  
+}
 
 toolbar[mode="icons"] .toolbarbutton-text {
   display: none;
@@ -100,7 +100,7 @@ toolbar[mode="text"] .toolbarbutton-icon {
 toolbarseparator {
   -moz-appearance       : none;
     background: url("chrome://global/skin/toolbar/toolbar-separator.png") transparent repeat-y;
-  
+
   padding: 0px;
   width: 1px !important;
 }

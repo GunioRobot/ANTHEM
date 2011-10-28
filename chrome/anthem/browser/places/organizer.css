@@ -37,7 +37,7 @@
   border-color: transparent;
 }
 
-#placesList treechildren::-moz-tree-row(selected) {  
+#placesList treechildren::-moz-tree-row(selected) {
   background-color: #6f81a9;
   background-image: url("chrome://browser/skin/places/selected-gradient.png");
   background-repeat: repeat-x;
@@ -45,7 +45,7 @@
   border-top: 1px solid #979797;
 }
 
-#placesList treechildren::-moz-tree-row(selected,focus) {  
+#placesList treechildren::-moz-tree-row(selected,focus) {
   background-image: url("chrome://browser/skin/places/selected-focused-gradient.png");
   background-color: #8a8a8a !important;
   border-top: 1px solid #91a0c0;
@@ -75,7 +75,7 @@
   margin: 0 10px;
 }
 
-#placesList treechildren::-moz-tree-cell-text(selected) {  
+#placesList treechildren::-moz-tree-cell-text(selected) {
   font-weight: bold !important;
   color: #ffffff !important;
 }
@@ -99,7 +99,7 @@
   -moz-border-end: 1px solid #404040;
   min-width: 1px;
   width: 1px;
-  background-image: none !important;       
+  background-image: none !important;
 }
 
 .toolbarbutton-1 {
@@ -274,7 +274,7 @@
   background-color: -moz-mac-secondaryhighlight;
 }
 
-#placeContent treechildren::-moz-tree-row(selected, focus), 
+#placeContent treechildren::-moz-tree-row(selected, focus),
 #placeContent treechildren::-moz-tree-row(odd, selected, focus) {
   background-color: Highlight;
   color: HighlightText !important;
@@ -324,7 +324,7 @@
   font-size: x-small;
   min-width: 0px;
   padding: 0px 4px 0px 4px;
-  margin: 0px;  
+  margin: 0px;
   border: 0px;
 }
 
@@ -400,7 +400,7 @@
   padding: 2px 0;
 }
 
-#advancedSearch > hbox, 
+#advancedSearch > hbox,
 #advancedSearchRows > row {
   background-color: #E8E8E8;
   border-top: 1px solid #F8F8F8;
@@ -470,7 +470,7 @@ menulist:active,
 menulist[open="true"]  {
  background: url("chrome://global/skin/icons/round-button-active-leftcap.png") no-repeat center left !important;
 }
-  
+
 .menulist-label-box {
   -moz-appearance: none;
   margin: 0px 0px 0px 8px !important;

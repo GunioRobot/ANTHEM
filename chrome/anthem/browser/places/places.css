@@ -11,7 +11,7 @@
   border: none !important;
 }
 
-#bookmarksPanel, 
+#bookmarksPanel,
 #history-panel,
 #bookmarksPanel > hbox,
 #history-panel > hbox {
@@ -30,8 +30,8 @@ tree.sidebar-placesTree treechildren::-moz-tree-row {
   border: none;
 }
 
-#bookmarks-view treechildren::-moz-tree-row(selected), 
-#historyTree treechildren::-moz-tree-row(selected) {  
+#bookmarks-view treechildren::-moz-tree-row(selected),
+#historyTree treechildren::-moz-tree-row(selected) {
   background-color: #6f81a9;
   background-image: url("chrome://browser/skin/places/selected-gradient.png");
   background-repeat: repeat-x;
@@ -45,13 +45,13 @@ tree.sidebar-placesTree treechildren::-moz-tree-separator {
 }
 
 #bookmarks-view treechildren::-moz-tree-row(selected,focus),
-#historyTree treechildren::-moz-tree-row(selected,focus) {  
+#historyTree treechildren::-moz-tree-row(selected,focus) {
   background-image: url("chrome://browser/skin/places/selected-focused-gradient.png");
   background-color: #8a8a8a !important;
   border-top: 1px solid #91a0c0;
 }
 
-tree.sidebar-placesTree treechildren::-moz-tree-cell-text(selected) {  
+tree.sidebar-placesTree treechildren::-moz-tree-cell-text(selected) {
   font-weight: bold !important;
   color: #ffffff !important;
 }

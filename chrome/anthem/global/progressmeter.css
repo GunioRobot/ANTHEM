@@ -56,7 +56,7 @@ progressmeter {
   min-height: 15px;
 }
 
-.progress-bar 
+.progress-bar
 {
   -moz-appearance: progresschunk;
   min-width: 0px;

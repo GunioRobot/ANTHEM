@@ -60,7 +60,7 @@
   color: -moz-FieldText;
   overflow: auto;
 }
- 
+
 /* ::::: console rows ::::: */
 
 .console-row {
@@ -95,7 +95,7 @@
 }
 
 .text-link {
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .text-link:hover {
@@ -109,7 +109,7 @@
   font-size: larger;
 }
 
-.console-dots, 
+.console-dots,
 .console-caret {
   height: 9px;
 }
@@ -127,7 +127,7 @@
 
 .console-row[type="message"] {
   font-family: monospace;
-} 
+}
 
 /* ..... selected state ..... */
 
@@ -139,7 +139,7 @@
 .console-row-code[selected="true"],
 .console-row-content[selected="true"] > .console-row-file,
 .console-row-content[selected="true"] > .console-row-file > .console-error-source > .text-link {
-  color: #FFF !important;  
+  color: #FFF !important;
 }
 
 /* ::::: row colors ::::: */
@@ -259,13 +259,13 @@ toolbar#ToolbarMode toolbarbutton[checked] {
 }
 
 #Console\:clear:hover:active {
-  background-image: none; 
+  background-image: none;
   background-color: #5E5E5E;
   color: #ffffff !important;
 }
 
 #ConsoleBox {
   margin-bottom: 14px;
-  border-bottom: 1px solid #bebebe; 
+  border-bottom: 1px solid #bebebe;
 }
 

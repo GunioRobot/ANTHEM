@@ -69,13 +69,13 @@ button[dlgtype="help"]:focus {
 
 button[dlgtype="help"] > .button-box > .button-icon {
   list-style-image: url("chrome://global/skin/icons/question-mark.png");
-  -moz-image-region: rect(0 24px 24px 0); 
+  -moz-image-region: rect(0 24px 24px 0);
   padding: 0 !important;
   margin: 0 !important;
 }
 
 button[dlgtype="help"]:active > .button-box > .button-icon {
-  -moz-image-region: rect(0 48px 24px 24px); 
+  -moz-image-region: rect(0 48px 24px 24px);
 }
 
 button[dlgtype="help"] > .button-box > .button-text {
@@ -106,7 +106,7 @@ window,
 page,
 dialog,
 wizard,
-prefwindow { 
+prefwindow {
   -moz-appearance: dialog;
   background-color: #FFFFFF;
   color: -moz-DialogText;
@@ -126,12 +126,12 @@ prefwindow[type="child"] {
 
 
 /* deprecated */
-window.dialog { 
+window.dialog {
   padding: 8px 10px 10px 8px;
 }
 
-[wait-cursor] { 
-  cursor: wait !important; 
+[wait-cursor] {
+  cursor: wait !important;
 }
 
 /* ::::: alert icons :::::*/
@@ -172,7 +172,7 @@ iframe {
 
 statusbar {
   border-top: 1px solid #505050 !important;
-  
+
   min-width: 1px; /* DON'T DELETE!
   Prevents hiding of scrollbars in browser when window is made smaller.*/
   min-height: 15px !important;
@@ -191,7 +191,7 @@ statusbarpanel {
 
 .statusbarpanel-iconic {
   padding: 0px;
-}    
+}
 
 /* ::::: miscellaneous ::::: */
 

@@ -1,7 +1,7 @@
 /********** Tab widget *********/
 /*******************************/
 /* This Mac-specific CSS styles tabs that are located on the top of their content,
- * as Macintosh tabs generally are.  An example of using bottom tab images can be 
+ * as Macintosh tabs generally are.  An example of using bottom tab images can be
  * found in EditorToolbar.css in classic/editor/.
  *******************************/
 
@@ -36,7 +36,7 @@ tabs.tabs-bottom {
 	-moz-box-flex: 1 !important;
 }
 /*** TAB: BOTTOM <tab class="tab-bottom"> ***/
-/* Found in editor.xul & editorOverlay.xul 
+/* Found in editor.xul & editorOverlay.xul
  * SMALL TABS FOR NOW */
 
 .tab-bottom {
@@ -49,7 +49,7 @@ tabs.tabs-bottom {
   padding: 0 6px 0 6px;
   margin-bottom: 2px;
 }
-  
+
 
 .tab-bottom > .tab-middle > .tab-text {
   font: message-box;
@@ -59,13 +59,13 @@ tabs.tabs-bottom {
 }
 
     /* top tabs */
-tabbox[orient="vertical"] tabs[orient="horizontal"] tab { 
+tabbox[orient="vertical"] tabs[orient="horizontal"] tab {
   padding: 0px;
   margin: 0px;
 }
 
 	/* bottom tabs */
-tabbox[orient="vertical"] tabpanels + tabs[orient="horizontal"] tab { 
+tabbox[orient="vertical"] tabpanels + tabs[orient="horizontal"] tab {
   border-top: none;
   border-bottom: 1px solid #666666;
   border-left: 1px solid white;
@@ -76,7 +76,7 @@ tabbox[orient="vertical"] tabpanels + tabs[orient="horizontal"] tab {
 }
 
 	/* left tabs */
-tabbox[orient="horizontal"] tabs[orient="vertical"] tab { 
+tabbox[orient="horizontal"] tabs[orient="vertical"] tab {
   border-right: none;
   -moz-border-radius: 8px 0px 0px 8px;
   padding-right: 1px;
@@ -84,7 +84,7 @@ tabbox[orient="horizontal"] tabs[orient="vertical"] tab {
 }
 
 	/* right tabs */
-tabbox[orient="horizontal"] tabpanels + tabs[orient="vertical"]  tab { 
+tabbox[orient="horizontal"] tabpanels + tabs[orient="vertical"]  tab {
   border-top: 1px solid white;
   border-bottom: 1px solid #666666;
   border-left: none;
@@ -94,12 +94,12 @@ tabbox[orient="horizontal"] tabpanels + tabs[orient="vertical"]  tab {
   margin: 2px 1px 2px 1px;
 }
 
-tabbox { 
+tabbox {
   border: none;
 }
 
 tabpanels {
-  -moz-appearance: tabpanels; 
+  -moz-appearance: tabpanels;
   border-top: 0px;
   border-bottom: 2px ridge #000000;
   border-left: 2px groove #000000;

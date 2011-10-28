@@ -10,7 +10,7 @@
     border-bottom         : 1px solid ThreeDHighlight;
     margin                : 0px 5px 5px 5px;
   }
-  
+
 .box-inset {
   margin: 2px 4px;
   border: 2px solid;
@@ -20,29 +20,29 @@
   -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
   background-color: #EEEEEE;
   color: -moz-DialogText;
-}  
-  
+}
+
 /* formatting */
 .groove-top
   {
-    border-top            : 2px groove ThreeDFace;  
+    border-top            : 2px groove ThreeDFace;
   }
-  
+
 .groove-right
   {
     border-right          : 2px groove ThreeDFace;
   }
-  
+
 .groove-left
   {
     border-left           : 2px groove ThreeDFace;
   }
-  
+
 .groove-bottom
   {
     border-bottom         : 2px groove ThreeDFace;
   }
-  
+
 .outset
   {
     border-left           : 1px solid ThreeDHighlight;
@@ -50,63 +50,63 @@
     border-right          : 1px solid ThreeDShadow;
     border-bottom         : 1px solid ThreeDShadow;
   }
-  
+
 .outset-top-bottom
   {
     border-top            : 1px solid ThreeDHighlight;
     border-bottom         : 1px solid ThreeDShadow;
-  }   
+  }
 
 
-  
+
 /** separator rules **/
 /* standard separators */
-  separator, separator[orient="horizontal"] 
+  separator, separator[orient="horizontal"]
     {
       height: 1.5em;
     }
-  
-  separator[orient="vertical"] 
+
+  separator[orient="vertical"]
     {
       width: 1.5em;
     }
 
 /* thinner separators (50% size) */
-  separator.thin, separator.thin[orient="horizontal"] 
+  separator.thin, separator.thin[orient="horizontal"]
     {
       height: 0.5em;
     }
-  
-  separator.thin[orient="vertical"] 
+
+  separator.thin[orient="vertical"]
     {
       width: 0.5em;
     }
 
 /* groove separators (50% size) */
   separator.groove,
-  separator.groove[orient="horizontal"] 
+  separator.groove[orient="horizontal"]
     {
       border-top: 1px solid #A3A3A3;
       height: 0px;
       margin-top: 0.4em;
       margin-bottom: 0.4em;
     }
-  
-  separator.groove[orient="vertical"] 
+
+  separator.groove[orient="vertical"]
     {
       border-left: 1px solid #A3A3A3;
       margin-left: 0.4em;
       margin-right: 0.4em;
     }
-  
-/* groove separators (0 padding, for dividing effects) */  
-  separator.groove-thin 
+
+/* groove separators (0 padding, for dividing effects) */
+  separator.groove-thin
     {
       border-top: 1px solid #A3A3A3;
       height: 0px;
     }
-  
-  separator[orient="vertical"].groove-thin 
+
+  separator[orient="vertical"].groove-thin
     {
       border-left: 1px solid #A3A3A3;
     }
@@ -119,18 +119,18 @@
     {
       margin              : 1px 2px 1px 2px;
     }
-    
-  .plain 
+
+  .plain
     {
       margin: 0px !important;
       border: none;
       padding: 0px;
     }
 
-  label[disabled="true"] 
+  label[disabled="true"]
     {
       color                 : GrayText;
-    }    
+    }
 
   description, label
     {
@@ -142,28 +142,28 @@
       margin              : 1px 5px 2px 6px;
     }
 
-  .header 
+  .header
     {
 
 	margin-bottom: 6px;
 	font-weight: bold;
     }
 
-  .larger-text 
+  .larger-text
     {
       font-size           : larger;
     }
 
-  .smaller-text 
+  .smaller-text
     {
       font-size           : smaller;
     }
-   
+
   .monospace
     {
       font-family         : monospace;
     }
-    
+
   .indent
     {
       margin-left         : 23px;
@@ -172,17 +172,17 @@
   .box-padded
     {
       padding             : 5px;
-    }    
+    }
 
   .spaced
     {
       margin              : 3px 5px 4px 5px;
-    }    
+    }
 
   .wizard-box
     {
       padding             : 20px 44px 10px 44px;
-    }    
+    }
 
   .caption-text
     {
@@ -208,7 +208,7 @@
       text-decoration       : underline;
       border                : 1px solid transparent;
     }
-  
+
   .text-link:focus
     {
       color                 : red;
@@ -218,12 +218,12 @@
   .text-link:hover
     {
       cursor                : pointer;
-    } 
-  
+    }
+
   .text-link:hover:active
     {
       color                 : red;
-    } 
+    }
 
   .text-link[visited="true"]
     {

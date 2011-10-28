@@ -63,7 +63,7 @@ findbar {
 
 
 .findbar-closebutton > .toolbarbutton-text {
-  display: none;  
+  display: none;
 }
 
 .findbar-container > checkbox {
@@ -87,7 +87,7 @@ findbar {
 }
 
 .findbar-container > checkbox > .checkbox-check {
-  display: none; 
+  display: none;
 }
 
 .findbar-container > checkbox > .checkbox-label-box > .checkbox-label {

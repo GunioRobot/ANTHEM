@@ -76,7 +76,7 @@
 }
 
 #main-window:not([active="true"]) > #browser > vbox > #sidebar,
-#main-window:not([active="true"]) > #browser > vbox > sidebarheader { 
+#main-window:not([active="true"]) > #browser > vbox > sidebarheader {
   background-color: #e8e8e8;
 }
 
@@ -121,7 +121,7 @@
 }
 
 
-/* ----- BOOKMARK BUTTONS ----- */	
+/* ----- BOOKMARK BUTTONS ----- */
 
 toolbarbutton.bookmark-item {
   font-weight: bold;
@@ -201,7 +201,7 @@ toolbarbutton.bookmark-item[chromedir="rtl"]:hover > .toolbarbutton-text-stack {
 
 toolbarbutton.bookmark-item:not([container]):hover:active  > .toolbarbutton-text-stack,
 toolbarbutton.bookmark-item[open] > .toolbarbutton-menu-dropmarker,
-toolbarbutton.bookmark-item[container]:hover:active > .toolbarbutton-menu-dropmarker 
+toolbarbutton.bookmark-item[container]:hover:active > .toolbarbutton-menu-dropmarker
 {
   background: url("chrome://browser/skin/bookmark-open-right.png") no-repeat right center;
 }
@@ -244,7 +244,7 @@ toolbarbutton.bookmark-item-microsummarized {
 }
 
 toolbarbutton.bookmark-item .toolbarbutton-text {
-  font-size: 100% !important; 
+  font-size: 100% !important;
   margin: 0px !important;
 }
 
@@ -324,7 +324,7 @@ toolbarpaletteitem[place="toolbar"] .places-toolbar-items {
   display: none;
 }
 
-/* ----- BOOKMARK MENUS ----- */	
+/* ----- BOOKMARK MENUS ----- */
 
 .bookmark-item > .menu-iconic-left > .menu-iconic-icon {
   width: 16px;
@@ -332,24 +332,24 @@ toolbarpaletteitem[place="toolbar"] .places-toolbar-items {
 }
 
 #bookmarksToolbarFolderMenu {
-  list-style-image: url("chrome://browser/skin/places/bookmarksToolbar.png");  
+  list-style-image: url("chrome://browser/skin/places/bookmarksToolbar.png");
 }
 
-/* ----- BOOKMARK PANEL DROPDOWN MENU ITEMS ----- */	
+/* ----- BOOKMARK PANEL DROPDOWN MENU ITEMS ----- */
 
 #editBMPanel_toolbarFolderItem {
-  list-style-image: url("chrome://browser/skin/places/bookmarksToolbar.png") !important;  
+  list-style-image: url("chrome://browser/skin/places/bookmarksToolbar.png") !important;
 }
 
 #editBMPanel_bmRootItem {
-  list-style-image: url("chrome://browser/skin/places/bookmarksMenu.png") !important;  
+  list-style-image: url("chrome://browser/skin/places/bookmarksMenu.png") !important;
 }
 
 #editBMPanel_unfiledRootItem {
-  list-style-image: url("chrome://browser/skin/places/unfiledBookmarks.png") !important;  
+  list-style-image: url("chrome://browser/skin/places/unfiledBookmarks.png") !important;
 }
 
-/* ----- PRIMARY TOOLBAR BUTTONS ----- */	
+/* ----- PRIMARY TOOLBAR BUTTONS ----- */
 
 .toolbarbutton-1,
 #back-forward-dropmarker {
@@ -404,7 +404,7 @@ toolbar[mode="icons"] #forward-button .toolbarbutton-text-box,
   display: none;
 }
 
-/* ----- DEFAULT PRIMARY TOOLBAR BUTTONS ----- */	
+/* ----- DEFAULT PRIMARY TOOLBAR BUTTONS ----- */
 
 .toolbarbutton-text-shadow,
 .tab-text-shadow {
@@ -604,8 +604,8 @@ richlistitem[selected="true"][current="true"] > hbox > .ac-result-type-bookmark,
   color: inherit !important;
 }
 
-.autocomplete-treebody::-moz-tree-cell-text(suggesthint, treecolAutoCompleteComment), 
-.autocomplete-treebody::-moz-tree-cell-text(suggestfirst, treecolAutoCompleteComment) 
+.autocomplete-treebody::-moz-tree-cell-text(suggesthint, treecolAutoCompleteComment),
+.autocomplete-treebody::-moz-tree-cell-text(suggestfirst, treecolAutoCompleteComment)
 {
   color: GrayText;
   font-size: smaller;
@@ -619,42 +619,42 @@ richlistitem[selected="true"][current="true"] > hbox > .ac-result-type-bookmark,
 
 #go-button {
   list-style-image: url("chrome://browser/skin/Go-arrow.png");
-  -moz-image-region: rect(0px, 16px, 16px, 0px);  
+  -moz-image-region: rect(0px, 16px, 16px, 0px);
 }
 
 #go-button:hover {
-  -moz-image-region: rect(0px, 32px, 16px, 16px);  
+  -moz-image-region: rect(0px, 32px, 16px, 16px);
 }
 
 #go-button:hover:active {
-  -moz-image-region: rect(0px, 48px, 16px, 32px);  
+  -moz-image-region: rect(0px, 48px, 16px, 32px);
 }
 
 /* STAR BUTTON */
 #star-button {
   padding: 1px;
   list-style-image: url("chrome://browser/skin/places/star-icons.png");
-  -moz-image-region: rect(0px, 16px, 16px, 0px);  
+  -moz-image-region: rect(0px, 16px, 16px, 0px);
 }
 
 #star-button:hover {
-  -moz-image-region: rect(0px, 32px, 16px, 16px);  
+  -moz-image-region: rect(0px, 32px, 16px, 16px);
 }
 
 #star-button:hover:active {
-  -moz-image-region: rect(0px, 48px, 16px, 32px);  
+  -moz-image-region: rect(0px, 48px, 16px, 32px);
 }
 
 #star-button[starred="true"] {
-  -moz-image-region: rect(16px, 16px, 32px, 0px);  
+  -moz-image-region: rect(16px, 16px, 32px, 0px);
 }
 
 #star-button:hover[starred="true"] {
-  -moz-image-region: rect(16px, 32px, 32px, 16px);  
+  -moz-image-region: rect(16px, 32px, 32px, 16px);
 }
 
 #star-button:hover:active[starred="true"] {
-  -moz-image-region: rect(16px, 48px, 32px, 32px);  
+  -moz-image-region: rect(16px, 48px, 32px, 32px);
 }
 
 /* BOOKMARKING PANEL */
@@ -1027,7 +1027,7 @@ richlistitem[selected="true"][current="true"] > hbox > .ac-result-type-bookmark,
 /* ----- SIDEBAR ELEMENTS ----- */
 
 #sidebar,
-sidebarheader { 
+sidebarheader {
   background-color: #d4dde5;
   padding: 2px;
   text-transform: uppercase;
@@ -1043,12 +1043,12 @@ sidebarheader {
   -moz-border-end: 1px solid #404040;
   min-width: 1px;
   width: 1px;
-  background-image: none !important;       
-} 
+  background-image: none !important;
+}
 
 #sidebar-title {
   color: #535f6d;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 #sidebar-throbber[loading="true"] {
@@ -1100,7 +1100,7 @@ sidebarheader > .tabs-closebutton > .toolbarbutton-text {
 #feed-button:hover:active > .button-box {
   padding: 0px;
   margin: -1px;
-  border: 0px; 
+  border: 0px;
   background-color: transparent;
 }
 
@@ -1111,7 +1111,7 @@ sidebarheader > .tabs-closebutton > .toolbarbutton-text {
 
 #feed-button {
   -moz-binding: url("chrome://global/content/bindings/button.xml#menu");
-  -moz-appearance: none; 
+  -moz-appearance: none;
   min-width: 0;
   min-height: 0;
   margin-right: 1px !important;
@@ -1140,7 +1140,7 @@ sidebarheader > .tabs-closebutton > .toolbarbutton-text {
   min-width: 0;
   background-color: transparent;
   height: 16px;
-  width: 17px;  
+  width: 17px;
 }
 
 /* XXXmano: hack until we figure out why the throbber uses a button instead
@@ -1177,7 +1177,7 @@ toolbarbutton.chevron > .toolbarbutton-menu-dropmarker {
 #nav-bar[collapsed="true"] + toolbar[customindex] {
  border-top: 2px solid;
  -moz-border-top-colors: rgba(0,0,0,0.35) rgba(255,255,255,0.45);
-} 
+}
 
 .bookmark-item {
   list-style-image: url("chrome://mozapps/skin/places/defaultFavicon.png");
@@ -1185,7 +1185,7 @@ toolbarbutton.chevron > .toolbarbutton-menu-dropmarker {
 
 .openintabs-menuitem {
   list-style-image: none;
-  
+
 }
 
 
@@ -1226,7 +1226,7 @@ toolbarbutton.chevron > .toolbarbutton-menu-dropmarker {
 .tabbrowser-arrowscrollbox > .scrollbutton-up[disabled="true"],
 .tabbrowser-arrowscrollbox > .scrollbutton-down-stack > .scrollbutton-down[disabled="true"][chromedir="rtl"] {
   -moz-image-region: rect(0px, 28px, 11px, 21px);
-  background-color: transparent !important; 
+  background-color: transparent !important;
 }
 
 .tabbrowser-arrowscrollbox .scrollbutton-down,
@@ -1345,7 +1345,7 @@ toolbarbutton.chevron > .toolbarbutton-menu-dropmarker {
 
 
 /**
- * All Tabs Menupopup 
+ * All Tabs Menupopup
  */
 
 .alltabs-item > .menu-iconic-left > .menu-iconic-icon {
@@ -1665,7 +1665,7 @@ tabpanels.plain {
   padding: 1px 9px;
   margin: 6px;
   min-height: 0px;
-  color:  #ffffff;	
+  color:  #ffffff;
 }
 
 #identity-popup-more-info-button > .button-box > .button-text {

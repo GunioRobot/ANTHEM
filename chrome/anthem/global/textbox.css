@@ -41,7 +41,7 @@
   ======================================================================= */
 
 @import url("chrome://global/content/autocomplete.css");
-  
+
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 @namespace html url("http://www.w3.org/1999/xhtml");
 
@@ -68,7 +68,7 @@ textbox[empty="true"] {
   color: GrayText;
 }
 
-html|*.textbox-input, 
+html|*.textbox-input,
 html|*.textbox-textarea {
   margin: 0px !important;
   border: none !important;
@@ -104,7 +104,7 @@ textbox[disabled="true"] {
   -moz-border-left-colors: transparent ThreeDShadow -moz-Dialog;
   background-color: -moz-Dialog;
   color: GrayText;
-} 
+}
 
 /* ::::: plain textbox ::::: */
 

@@ -50,7 +50,7 @@ splitter {
   cursor: ew-resize;
   min-width: 9px;
   min-height: 9px;
-  background: url("chrome://global/skin/splitter/dimple.png") transparent no-repeat center;  
+  background: url("chrome://global/skin/splitter/dimple.png") transparent no-repeat center;
 }
 
 /* ::::: splitter (horizontal) ::::: */
@@ -59,12 +59,12 @@ splitter[orient="vertical"] {
   cursor: ns-resize;
   min-width: 0px;
   min-height: 9px;
-  min-width: 9px;  
+  min-width: 9px;
   background: url("chrome://global/skin/splitter/dimple.png") transparent no-repeat center;
 }
 
 /* ::::: splitter grippy ::::: */
-  
+
 grippy {
   cursor: pointer;
   margin: 0px 1px;

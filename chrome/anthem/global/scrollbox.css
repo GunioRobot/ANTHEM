@@ -3,14 +3,14 @@
 /*
  * Scroll arrows
  */
- 
+
 /* Horizontal enabled */
 .autorepeatbutton-up[orient="horizontal"],
 .scrollbutton-up[orient="horizontal"]
  {
    list-style-image      : url("chrome://global/skin/arrow/arrow-lft-sharp.gif");
  }
- 
+
 .autorepeatbutton-down[orient="horizontal"],
 .scrollbutton-down[orient="horizontal"]
   {
@@ -23,7 +23,7 @@
  {
    list-style-image      : url("chrome://global/skin/arrow/arrow-lft-dis.gif");
  }
- 
+
 .autorepeatbutton-down[orient="horizontal"][disabled="true"],
 .scrollbutton-down[orient="horizontal"][disabled="true"]
   {

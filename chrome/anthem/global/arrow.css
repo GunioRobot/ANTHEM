@@ -4,7 +4,7 @@
 .up {
   min-width: 0px;
   list-style-image: url("chrome://global/skin/arrow/arrow-up.gif");
-}               
+}
 .up[disabled="true"] {
   list-style-image: url("chrome://global/skin/arrow/arrow-up-dis.gif");
 }
